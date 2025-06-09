@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your House Building Business</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your House Building Business</h1>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#properties">Available Properties</a></li>
+                <li><a href="#process">Building Process</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#inquiry">Inquiry Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="portfolio" class="app-section">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200?text=House+1" alt="House 1">
+                    <h3>Modern Family Home</h3>
+                    <p>A beautifully designed contemporary home with spacious interiors.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200?text=House+2" alt="House 2">
+                    <h3>Classic Suburban Residence</h3>
+                    <p>Timeless design with traditional finishes, perfect for any family.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200?text=House+3" alt="House 3">
+                    <h3>Custom Waterfront Property</h3>
+                    <p>Luxurious home built to spec with stunning views.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="properties" class="app-section">
+            <h2>Available Properties</h2>
+            <div class="property-list">
+                <div class="property-item">
+                    <h3>The Willow Creek</h3>
+                    <p><strong>Location:</strong> 123 Main St, Anytown</p>
+                    <p><strong>Bedrooms:</strong> 4 | <strong>Bathrooms:</strong> 3 | <strong>Size:</strong> 2,800 sq ft</p>
+                    <p><strong>Price:</strong> $550,000</p>
+                    <p>Status: Ready for move-in!</p>
+                </div>
+                <div class="property-item">
+                    <h3>The Oakwood</h3>
+                    <p><strong>Location:</strong> 456 Oak Ave, Anytown</p>
+                    <p><strong>Bedrooms:</strong> 3 | <strong>Bathrooms:</strong> 2.5 | <strong>Size:</strong> 2,200 sq ft</p>
+                    <p><strong>Price:</strong> $480,000</p>
+                    <p>Status: Under construction, estimated completion August 2025.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="app-section">
+            <h2>Our Building Process</h2>
+            <ol class="process-steps">
+                <li>
+                    <h3>1. Initial Consultation & Design</h3>
+                    <p>We start by understanding your vision, budget, and needs. Our architects then create a custom design or adapt an existing plan.</p>
+                </li>
+                <li>
+                    <h3>2. Permitting & Planning</h3>
+                    <p>We handle all necessary permits and ensure the project complies with local building codes and regulations.</p>
+                </li>
+                <li>
+                    <h3>3. Foundation & Framing</h3>
+                    <p>The groundwork begins with site preparation, foundation laying, and erecting the structural framework of your home.</p>
+                </li>
+                <li>
+                    <h3>4. Exterior & Utilities</h3>
+                    <p>Installation of roofing, siding, windows, and doors. Rough-ins for plumbing, electrical, and HVAC systems are also completed.</p>
+                </li>
+                <li>
+                    <h3>5. Interior Finishes</h3>
+                    <p>Drywall, flooring, cabinetry, paint, and all interior fixtures are installed, bringing the home to life.</p>
+                </li>
+                <li>
+                    <h3>6. Final Walkthrough & Handover</h3>
+                    <p>A detailed inspection with you to ensure every detail meets your satisfaction before we hand over the keys to your new home.</p>
+                </li>
+            </ol>
+        </section>
+
+        <section id="contact" class="app-section">
+            <h2>Contact Us</h2>
+            <p>Ready to build your dream home? Contact us today!</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> info@yourhousebuilders.com</p>
+            <p><strong>Address:</strong> 789 Construction Blvd, Builderville, CA 90210</p>
+            <div class="social-links">
+                <a href="#" target="_blank">Facebook</a> |
+                <a href="#" target="_blank">Instagram</a> |
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+
+        <section id="inquiry" class="app-section">
+            <h2>Send Us an Inquiry</h2>
+            <form id="inquiryForm">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Your Phone (optional):</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Inquiry</button>
+                <p id="formStatus" style="margin-top: 10px;"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your House Building Business. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
